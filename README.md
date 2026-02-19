@@ -1,4 +1,4 @@
-# Landing Page (Link na Bio) — Rota do Capacete
+# RotaLinks
 
 Landing page simples para usar no link do Instagram (estilo “link na bio”), com logo, botões para marketplaces e botão para o site oficial.
 
@@ -51,7 +51,7 @@ Landing page simples para usar no link do Instagram (estilo “link na bio”), 
 2. Vá em **Settings → Pages**.
 3. Em **Build and deployment**, selecione:
    - **Source**: *Deploy from a branch*
-   - **Branch**: `main` (ou `master`) e pasta `/ (root)`
+   - **Branch**: `main` e pasta `/ (root)`
 4. Aguarde a publicação e use a URL gerada como link na bio.
 
 ## Observações
@@ -59,6 +59,6 @@ Landing page simples para usar no link do Instagram (estilo “link na bio”), 
 - A página usa a fonte **Sora** via Google Fonts.
 - Marcas e logotipos citados pertencem aos seus respectivos proprietários.
 
-## Desenvolvedora 
+## Desenvolvedora
 
-- Taynara Correia de Souza 
+- Taynara Correia de Souza
