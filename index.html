@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <title>Rota do Capacete | Links</title>
+    <meta name="theme-color" content="#0b0d10" />
+    <meta
+      name="description"
+      content="Escolha onde comprar: Mercado Livre, Amazon, Magalu, Shein, Shopee, TikTok Shop e Kwai Shop."
+    />
+
+    <meta property="og:title" content="Rota do Capacete — Links" />
+    <meta
+      property="og:description"
+      content="Escolha onde comprar: Mercado Livre, Amazon, Magalu, Shein, Shopee, TikTok Shop e Kwai Shop."
+    />
+    <meta property="og:image" content="logo.rota.png" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/png" href="logo.rota.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var theme = "dark";
+
+        try {
+          var saved = localStorage.getItem("theme");
+          if (saved === "light" || saved === "dark") {
+            theme = saved;
+          } else if (
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: light)").matches
+          ) {
+            theme = "light";
+          }
+        } catch (e) {}
+
+        root.dataset.theme = theme;
+
+        var themeMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeMeta) {
+          themeMeta.setAttribute(
+            "content",
+            theme === "light" ? "#f6f2ed" : "#0b0d10"
+          );
+        }
+      })();
+    </script>
+
+    <style>
+      :root {
+        --bg: #0b0d10;
+        --bg-2: #0f1319;
+        --surface: #141a21;
+        --surface-2: #1a222b;
+        --accent: #ff6b00;
+        --accent-2: #f8b53a;
+        --accent-3: #ff944d;
+        --text: #f4f6f8;
+        --muted: #b8c0cc;
+        --stroke: rgba(255, 255, 255, 0.08);
+        --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+        --radius: 18px;
+        --transition: 0.35s ease;
+        color-scheme: dark;
+      }
+
+      :root[data-theme="light"] {
+        --bg: #f6f2ed;
+        --bg-2: #fbf6ef;
+        --surface: #ffffff;
+        --surface-2: #f4ede4;
+        --text: #1f252b;
+        --muted: #4f585f;
+        --stroke: rgba(0, 0, 0, 0.08);
+        --shadow: 0 18px 40px rgba(12, 12, 12, 0.12);
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        color: var(--text);
+        font-family:
+          "Sora",
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Helvetica,
+          Arial,
+          "Apple Color Emoji",
+          "Segoe UI Emoji";
+        background:
+          radial-gradient(
+            900px 500px at 10% -10%,
+            rgba(255, 107, 0, 0.28),
+            transparent 60%
+          ),
+          radial-gradient(
+            700px 420px at 90% 10%,
+            rgba(248, 181, 58, 0.18),
+            transparent 55%
+          ),
+          var(--bg);
+        line-height: 1.6;
+        display: grid;
+        place-items: center;
+        padding: 28px 16px;
+        padding:
+          max(28px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+          max(28px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+      }
+
+      :root[data-theme="light"] body {
+        background:
+          radial-gradient(
+            900px 500px at 10% -10%,
+            rgba(255, 107, 0, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            700px 420px at 90% 10%,
+            rgba(248, 181, 58, 0.12),
+            transparent 55%
+          ),
+          var(--bg);
+      }
+
+      .card {
+        width: min(560px, 100%);
+        background: rgba(20, 26, 33, 0.92);
+        border: 1px solid var(--stroke);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+        position: relative;
+        backdrop-filter: blur(10px);
+      }
+
+      :root[data-theme="light"] .card {
+        background: rgba(255, 255, 255, 0.92);
+      }
+
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            700px 420px at 10% 0%,
+            rgba(255, 107, 0, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            600px 420px at 90% 10%,
+            rgba(248, 181, 58, 0.12),
+            transparent 62%
+          );
+        pointer-events: none;
+      }
+
+      :root[data-theme="light"] .card::before {
+        background:
+          radial-gradient(
+            700px 420px at 10% 0%,
+            rgba(255, 107, 0, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            600px 420px at 90% 10%,
+            rgba(248, 181, 58, 0.1),
+            transparent 62%
+          );
+      }
+
+      .inner {
+        position: relative;
+        padding: 28px 18px 18px;
+      }
+
+      .top-actions {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 8px;
+      }
+
+      .theme-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 999px;
+        border: 1px solid var(--stroke);
+        background: rgba(255, 255, 255, 0.02);
+        color: var(--text);
+        cursor: pointer;
+        transition: var(--transition);
+      }
+
+      :root[data-theme="light"] .theme-toggle {
+        background: rgba(0, 0, 0, 0.02);
+      }
+
+      .theme-toggle:hover {
+        background: rgba(255, 255, 255, 0.04);
+      }
+
+      :root[data-theme="light"] .theme-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      .theme-toggle:focus-visible {
+        outline: 3px solid rgba(255, 107, 0, 0.35);
+        outline-offset: 2px;
+      }
+
+      .theme-symbol {
+        width: 18px;
+        height: 18px;
+        display: grid;
+        place-items: center;
+        font-size: 16px;
+        line-height: 1;
+      }
+
+      .brand {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        gap: 12px;
+        padding: 8px 8px 18px;
+      }
+
+      .logo {
+        width: min(220px, 70%);
+        height: auto;
+        display: block;
+        filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
+      }
+
+      .title {
+        margin: 0;
+        font-size: clamp(18px, 2.2vw, 22px);
+        font-weight: 700;
+        letter-spacing: 0.2px;
+      }
+
+      .subtitle {
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(14px, 1.8vw, 16px);
+      }
+
+      .links {
+        display: grid;
+        gap: 12px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 16px;
+        min-height: 56px;
+        border-radius: 14px;
+        text-decoration: none;
+        color: var(--text);
+        border: 1px solid var(--stroke);
+        background: rgba(255, 255, 255, 0.02);
+        transition:
+          transform var(--transition),
+          background var(--transition),
+          border-color var(--transition);
+      }
+
+      :root[data-theme="light"] .link {
+        background: rgba(0, 0, 0, 0.02);
+      }
+
+      .link:focus-visible {
+        outline: 3px solid rgba(255, 107, 0, 0.35);
+        outline-offset: 2px;
+      }
+
+      .link:hover {
+        transform: translateY(-1px);
+        background: rgba(255, 255, 255, 0.04);
+        border-color: rgba(255, 255, 255, 0.18);
+      }
+
+      :root[data-theme="light"] .link:hover {
+        background: rgba(0, 0, 0, 0.04);
+        border-color: rgba(0, 0, 0, 0.14);
+      }
+
+      .link.primary {
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+        color: #111;
+        border-color: transparent;
+        box-shadow: 0 18px 36px rgba(255, 107, 0, 0.18);
+      }
+
+      .link.primary:hover {
+        box-shadow: 0 22px 44px rgba(255, 107, 0, 0.24);
+        border-color: transparent;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      }
+
+      :root[data-theme="light"] .link.primary {
+        box-shadow: 0 18px 34px rgba(255, 107, 0, 0.28);
+      }
+
+      .link.primary .hint {
+        color: #111;
+        font-weight: 800;
+      }
+
+      :root[data-theme="light"] .link.primary .hint {
+        color: #1a1208;
+      }
+
+      .link.primary .name {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+      }
+
+      .label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+      }
+
+      .icon {
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+        display: grid;
+        place-items: center;
+        flex: 0 0 auto;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--stroke);
+      }
+
+      :root[data-theme="light"] .icon {
+        background: rgba(0, 0, 0, 0.02);
+      }
+
+      .market-logo {
+        width: 22px;
+        height: 22px;
+        display: block;
+        object-fit: contain;
+        border-radius: 6px;
+      }
+
+      .name {
+        font-weight: 650;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .hint {
+        color: var(--accent-2);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        flex: 0 0 auto;
+      }
+
+      @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+        .hint:not(.plain) {
+          background: linear-gradient(135deg, var(--accent), var(--accent-2));
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+      }
+
+      .footer {
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid var(--stroke);
+        color: var(--muted);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+      }
+
+      @media (min-width: 720px) {
+        body {
+          padding: 40px 22px;
+          padding:
+            max(40px, env(safe-area-inset-top))
+            max(22px, env(safe-area-inset-right))
+            max(40px, env(safe-area-inset-bottom))
+            max(22px, env(safe-area-inset-left));
+        }
+
+        .card {
+          width: min(760px, 100%);
+        }
+
+        .inner {
+          padding: 34px 28px 24px;
+        }
+
+        .top-actions {
+          margin-bottom: 10px;
+        }
+
+        .logo {
+          width: min(260px, 56%);
+        }
+
+        .links {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 14px;
+        }
+
+        .links > li:first-child {
+          grid-column: 1 / -1;
+        }
+
+        .link {
+          padding: 16px 18px;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .inner {
+          padding: 22px 14px 14px;
+        }
+
+        .logo {
+          width: min(200px, 75%);
+        }
+
+        .link {
+          padding: 14px 14px;
+        }
+
+        .hint {
+          font-size: 12px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .link {
+          transition: none;
+        }
+        .link:hover {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="inner">
+        <div class="top-actions" aria-label="Ações">
+          <button
+            class="theme-toggle"
+            type="button"
+            id="themeToggle"
+            aria-label="Alternar tema"
+            aria-pressed="false"
+          >
+            <span class="theme-symbol" data-theme-icon aria-hidden="true">☾</span>
+          </button>
+        </div>
+
+        <header class="brand">
+          <img class="logo" src="logo.rota.png" alt="Logo Rota" />
+          <h1 class="title">Links oficiais</h1>
+          <p class="subtitle">Escolha onde comprar</p>
+        </header>
+
+        <nav aria-label="Marketplaces">
+          <ul class="links">
+            <li>
+              <a
+                class="link primary"
+                href="https://www.rotadocapacete.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Acessar o site oficial"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="logo.rota.png"
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Acesse nosso site oficial</span>
+                </span>
+                <span class="hint plain">Acessar</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://www.mercadolivre.com.br/pagina/rota_do_capacete?item_id=MLB4047210127&amp;category_id=MLB3929&amp;seller_id=29579291&amp;client=recoview-selleritems&amp;recos_listing=true#origin=pdp&amp;component=sellerData&amp;typeSeller=eshop"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Mercado Livre"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/mercado-livre.webp"
+                      alt="Mercado Livre"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Mercado Livre</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://www.amazon.com.br/s?me=A23SDMKLI9FJYM&amp;marketplaceID=A2Q3Y263D00KWC"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Amazon"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/amazon.webp"
+                      alt="Amazon"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Amazon</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://www.magazineluiza.com.br/lojista/pimotors/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Magalu"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/magalu.webp"
+                      alt="Magalu"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Magalu</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://br.shein.com/store/home?cdn_rsite=ak&amp;ref=www&amp;rep=dir&amp;ret=br&amp;store_code=4614186217&amp;tab=items"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Shein"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/shein.webp"
+                      alt="Shein"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Shein</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://shopee.com.br/shop/349317996"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Shopee"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/shopee.webp"
+                      alt="Shopee"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Shopee</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://vt.tiktok.com/ZSmPJjXth/?page=TikTokShop&amp;utm_campaign=client_share&amp;utm_source=whatsapp&amp;share_app_id=1233"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir TikTok Shop"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/tiktok.ico"
+                      alt="TikTok Shop"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">TikTok Shop</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="link"
+                href="https://s.kw.ai/w/wiCxyUgx"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Abrir Kwai Shop"
+              >
+                <span class="label">
+                  <span class="icon" aria-hidden="true">
+                    <img
+                      class="market-logo"
+                      src="assets/marketplaces/kwai.ico"
+                      alt="Kwai Shop"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="name">Kwai Shop</span>
+                </span>
+                <span class="hint">Abrir</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer">
+          <span>© <span id="year"></span> Rota do Capacete.</span>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var toggle = document.getElementById("themeToggle");
+        var year = document.getElementById("year");
+        var themeMeta = document.querySelector('meta[name="theme-color"]');
+
+        function applyTheme(theme) {
+          root.dataset.theme = theme;
+          if (themeMeta) {
+            themeMeta.setAttribute(
+              "content",
+              theme === "light" ? "#f6f2ed" : "#0b0d10"
+            );
+          }
+
+          if (toggle) {
+            var isLight = theme === "light";
+            toggle.setAttribute("aria-pressed", String(isLight));
+
+            var icon = toggle.querySelector("[data-theme-icon]");
+            if (icon) icon.textContent = isLight ? "☀" : "☾";
+          }
+        }
+
+        if (year) year.textContent = String(new Date().getFullYear());
+
+        applyTheme(root.dataset.theme === "light" ? "light" : "dark");
+
+        if (toggle) {
+          toggle.addEventListener("click", function () {
+            var next = root.dataset.theme === "light" ? "dark" : "light";
+            try {
+              localStorage.setItem("theme", next);
+            } catch (e) {}
+            applyTheme(next);
+          });
+        }
+
+        try {
+          var mql = window.matchMedia("(prefers-color-scheme: light)");
+          mql.addEventListener("change", function () {
+            var saved = localStorage.getItem("theme");
+            if (saved === "light" || saved === "dark") return;
+            applyTheme(mql.matches ? "light" : "dark");
+          });
+        } catch (e) {}
+      })();
+    </script>
+  </body>
+</html>
+
+<!-- tay.souza-->
